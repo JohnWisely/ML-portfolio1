@@ -3,7 +3,7 @@
 
 ## Explanation of the project
 _100 words to explain what your project is about to a general audience. _
-This project is an attempt to accurately predict whether someone is at serious risk of heart failure 
+This project is an attempt to accurately predict whether someone is at serious risk of heart failure.
 
 ## DATA
 
