@@ -2,8 +2,14 @@
 
 
 ## Explanation of the project
-_100 words to explain what your project is about to a general audience. _
-This project is an attempt to accurately predict whether someone is at serious risk of heart failure.
+This project is an attempt to accurately predict whether someone is at serious risk of heart failure given a number of inputs provided in the dataset (see below).
+
+This project will adopt the following steps to achieve this:
+1) Data exploration and analysis - 
+2) Cleanse the data as necessary - 
+3) Model selection - 
+4) Hyperparameter Tuning -
+5) Evaluation and next steps
 
 ## DATA
 
