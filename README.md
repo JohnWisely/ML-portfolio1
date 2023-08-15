@@ -49,7 +49,7 @@ Logistic Regression, Support Vector Machines, Naive Bayes classifier, Decision T
 
 The purpose of this project is to see the effect of tuning hyperparameters within a ML Model.  Therefore, rather than assesing the performance of the different types of models I have chosen to use just the Random Forest classifier.  I chose this model as a) the advantages of the model (below) appeared to fit the data well and b) the model has number of hyperparameters are able to be tuned.
 
-Through investigation the following advantages of Random Forest classifiers suited the dataset well:
+Through investigation the following advantages of Random Forest classifiers suited the dataset well:  
 · It overcomes the problem of overfitting by averaging or combining the results of different decision trees.   The dataset has some features that are highly correlated to the outcome so we need to reduce the effect of overfitting.
 · Random forests work well for a large range of data items than a single decision tree does.
 · Random forest has less variance than a single decision tree.
