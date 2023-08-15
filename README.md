@@ -50,22 +50,22 @@ Logistic Regression, Support Vector Machines, Naive Bayes classifier, Decision T
 The purpose of this project is to see the effect of tuning hyperparameters within a ML Model.  Therefore, rather than assesing the performance of the different types of models I have chosen to use just the Random Forest classifier.  I chose this model as a) the advantages of the model (below) appeared to fit the data well and b) the model has number of hyperparameters are able to be tuned.
 
 Through investigation the following advantages of Random Forest classifiers suited the dataset well:  
-· It overcomes the problem of overfitting by averaging or combining the results of different decision trees.   The dataset has some features that are highly correlated to the outcome so we need to reduce the effect of overfitting.
-· Random forests work well for a large range of data items than a single decision tree does.
-· Random forest has less variance than a single decision tree.
-· Random forests are very flexible and possess very high accuracy.
-· Scaling of data is not required in a random forest algorithm. It maintains good accuracy even after providing data without scaling.  Therefore, I can train the model without applying scaling.  As well as assisting at the fitting stage it makes the resulting model more easily applied to new data by non-technical users.
-· Random Forest algorithms maintain good accuracy even when a large proportion of the data is missing.
+· It overcomes the problem of overfitting by averaging or combining the results of different decision trees. The dataset has some features that are highly correlated to the outcome so we need to reduce the effect of overfitting.  
+· Random forests work well for a large range of data items than a single decision tree does.  
+· Random forest has less variance than a single decision tree.  
+· Random forests are very flexible and possess very high accuracy.  
+· Scaling of data is not required in a random forest algorithm. It maintains good accuracy even after providing data without scaling.  Therefore, I can train the model without applying scaling.  As well as assisting at the fitting stage it makes the resulting model more easily applied to new data by non-technical users.  
+· Random Forest algorithms maintain good accuracy even when a large proportion of the data is missing.  
 
 ## HYPERPARAMETER OPTIMSATION
 Using a Randomised Search Grid I tuned the following parameters:
 
-n_estimators: The number of trees in the forest.
-min_samples_split: The minimum number of samples required to split an internal node
-max_leaf_nodes: Sets a condition on the splitting of the nodes in the tree and hence restricts the growth of the tree.
-max_features: The number of features to consider when looking for the best split
-max_depth: The max_depth of a tree in Random Forest is defined as the longest path between the root node and the leaf node.
-bootstrap: Whether bootstrap samples are used when building trees. If False, the whole dataset is used to build each tree.
+n_estimators: The number of trees in the forest.  
+min_samples_split: The minimum number of samples required to split an internal node.  
+max_leaf_nodes: Sets a condition on the splitting of the nodes in the tree and hence restricts the growth of the tree.  
+max_features: The number of features to consider when looking for the best split.  
+max_depth: The max_depth of a tree in Random Forest is defined as the longest path between the root node and the leaf node.  
+bootstrap: Whether bootstrap samples are used when building trees. If False, the whole dataset is used to build each tree.  
 
 ## RESULTS
 A summary of the results 
@@ -75,6 +75,6 @@ A summary of the results
 ![Screenshot](Images/capture1.PNG)
 
 ## NEXT STEPS
-- Use K-fold validation techniques to further improve results
-- Evaluate other models and compare the results to these
-- Apply model to unseen data
+- Use K-fold validation techniques to further improve results  
+- Evaluate other models and compare the results to these  
+- Apply model to unseen data  
